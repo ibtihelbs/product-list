@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="flex">
+      <section id="products">
+        <h1>Desserts</h1>
+        <div id="container" class="grid"></div>
+      </section>
+      <section id="cart">
+        <h1 class="cart-title">Your Cart</h1>
+
+        <div class="single-item flex between">
+          <div class="item-info">
+            <h3>Waffle with Berries</h3>
+            <div class="info">
+              <span class="quantity price-tag">5</span>
+              <span class="single-price price-tag">5</span>
+              <span class="price price-tag">5</span>
+            </div>
+          </div>
+          <button>
+            <img src="./assets/images/icon-remove-item.svg" alt="" />
+          </button>
+        </div>
+        <div id="order-total">
+          <span>Order total</span>
+          <h1 id="totalprice" class="price-tag">25</h1>
+        </div>
+        <button>Confirm order</button>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
